@@ -46,3 +46,8 @@ The testing is quite frankly lacking on this project. However you can run existi
 ```
 cd src
 make tests
+```
+
+# Credit
+ - [Turtle11413](https://github.com/Turtle11413) - UX/UI, affine transformations
+ - [drednoot](https://github.com/drednoot) - Rendering, obj parser, misc
