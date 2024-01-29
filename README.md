@@ -2,6 +2,9 @@
 C++ app that allows for viewing 3d .obj models' wireframes
 
 # What is this app
+  
+![overview](./misc/overview.gif)
+
 ## features
  * This app allows 3d models (saved as \*.obj) files be seen in a window  
  * The app offers an ability to move, scale and rotate models
@@ -35,3 +38,11 @@ make
 ```
 
 If you want to statically build the application (without Qt dynamic lib dependencies), you can [add statically configured qt to PATH](https://doc.qt.io/qt-6/linux-deployment.html).
+
+## testing
+
+The testing is quite frankly lacking on this project. However you can run existing tests with the help of [google test](https://github.com/google/googletest) libraries.
+
+```
+cd src
+make tests
